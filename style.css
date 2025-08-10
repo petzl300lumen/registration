@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins/Poppins-Medium.ttf') format(truetype);
+}
+
 .container{
     display: flex;
     max-width: 1440px;
@@ -9,6 +14,7 @@
 }
 
 .registraton{
+    font-family: 'Poppins';
     width: 50%;
     padding-top: 31px;
     padding-left: 42px;
@@ -72,6 +78,7 @@ margin-bottom: 6px;
 
 
 .signin__link{
+font-family: 'Poppins';
 font-size: 16px;
 line-height: 24px;
 margin: 0;
@@ -79,6 +86,7 @@ margin-bottom: 52px;
 }
 
 .signin__tosignup{
+        font-family: 'Poppins';
     border: none;
     outline: none;
     background-color: transparent;
@@ -104,6 +112,7 @@ line-height: 24px;
 }
 
 .form__input{
+        font-family: 'Poppins';
     outline: none;
     border: none;
     border-bottom: 2px solid rgb(0, 8, 66);
@@ -147,6 +156,7 @@ line-height: 24px;
 
 
 .form__btn{
+        font-family: 'Poppins';
     border: none;
     outline: none;
     background-color: transparent;
@@ -185,12 +195,14 @@ margin-bottom: 31px;
 .website{
     border-radius: 15px;
     width: 50%;
+    min-height: 880px;
     padding: 24px 24px 96px 98px;
     background-color: rgb(0, 8, 66);
 }
 .website__tel{
+        font-family: 'Poppins';
     display: block;
-    max-width: 138px;
+    max-width: 160px;
     margin-left: auto;
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -210,6 +222,7 @@ background-position: left center;
     margin-bottom: 84px;
 }
 .website__title{
+        font-family: 'Poppins';
     color: rgb(255, 255, 255);
 font-size: 40px;
 font-weight: 600;
@@ -218,6 +231,7 @@ margin: 0;
 margin-bottom: 4px;
 }
 .website__descr{
+        font-family: 'Poppins';
     margin: 0;
     color: rgb(255, 255, 255);
 font-size: 20px;
